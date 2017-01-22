@@ -1,0 +1,44 @@
+#section-statistic{
+  background: url("../img/bg-section-statistic.jpg") no-repeat;
+  background-size: cover;
+  padding: 80px 0 115px 0;
+  color: $main-color;
+}
+.circlestat {
+  margin: 0 auto;
+}
+.circliful {
+  position: relative;
+}
+.circle-text, .circle-info, .circle-text-half, .circle-info-half {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+}
+.circle-info, .circle-info-half {
+  color: #999;
+}
+.circliful .fa {
+  margin: -10px 3px 0 3px;
+  position: relative;
+  bottom: 4px;
+}
+.circle-text, .circle-info, .circle-text-half, .circle-info-half{
+  font-family: $fontMontserrat;
+  font-weight: 700;
+  color: $main-color;
+}
+.statistic-title{
+  font-family: $fontMontserrat;
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.statistic-text{
+  font-family: $fontMontserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}

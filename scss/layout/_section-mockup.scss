@@ -1,0 +1,43 @@
+#section-mockup{
+  padding: 45px 0 0 0;
+  background: url("../img/bg-section-mockup.jpg") no-repeat;
+  background-size: cover;
+}
+.block-mockup{
+  position: relative;
+}
+.mockup-title{
+  font-family: $fontMontserrat;
+  font-weight: 700;
+  font-size: 72px;
+}
+.mockup-text{
+  font-family: $fontMerriweather;
+  font-weight: 400;
+  font-size: 14px;
+  width: 290px;
+  color: #f0eae4;
+}
+.img-ipad{
+  float: right;
+  margin-top: -90px;
+}
+.btn-section-mockup{
+  box-shadow: 0 10px 20px rgba(75, 215, 200, 0.5);
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+}
+.btn-section-mockup::before{
+  content: "";
+  background: url("../img/mockup-Icon-apple.svg") no-repeat;
+  width: 17px;
+  height: 20px;
+  position: absolute;
+  top: 12px;
+  left: 20px;
+}
+.mockup-icon-apple{
+  padding-right: 15px;
+  margin-bottom: 7px;
+}

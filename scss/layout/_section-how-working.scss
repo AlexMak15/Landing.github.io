@@ -1,0 +1,53 @@
+#how-working{
+  background: url("../img/bg-section-how-working.jpg") no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  padding-top: 30px;
+}
+.how-working-title{
+  font-family: $fontMontserrat;
+  font-size: 72px;
+  font-weight: 700;
+  text-shadow: 10px 0 20px rgba(0, 0, 0, 0.2);
+}
+.how-working-text{
+  font-family: $fontMontserrat;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 30px;
+  margin-top: 0;
+}
+.title-how-working-2{
+  font-size: 16px;
+  margin: 0;
+ }
+.icon-watch{
+  margin-top:275px;
+  display: inline-block;
+  width: 94px;
+  height: 94px;
+  padding: 28px;
+  background: #fff;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  transition: background 0.5s;
+  &:hover{
+    background: #4dc1be;
+  }
+  &::before{
+    content: 'watch video';
+    width: 100px;
+    font-family: $fontMontserrat;
+    font-weight: 500;
+    font-size: 14px;
+    white-space: nowrap;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+  }
+}

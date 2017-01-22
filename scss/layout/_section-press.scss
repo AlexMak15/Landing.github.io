@@ -1,0 +1,25 @@
+#section-press{
+  background: url("../img/bg-section-press.jpg") no-repeat;
+  background-size: cover;
+  padding: 50px 0 60px 0;
+}
+.press-article-title{
+  font-family: $fontMontserrat;
+  font-weight: 700;
+  font-size: 21px;
+  color: #2dade8;
+  margin-bottom: 0;
+  text-shadow: 20px 0 40px rgba(0, 0, 0, 0.3);
+}
+.press-article-text{
+  font-family: $fontMontserrat;
+  font-weight: 700;
+  font-size: 42px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.5s;
+  &:hover,&:active,&:focus{
+    color: #38aab4;
+    text-decoration: none;
+  }
+}

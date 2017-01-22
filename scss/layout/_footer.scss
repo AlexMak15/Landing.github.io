@@ -1,0 +1,62 @@
+#footer{
+  background: $second-color;
+  min-height: 250px;
+  padding-top: 50px;
+}
+.footer-menu{
+  margin: 0;
+  padding: 0;
+  font-family: $fontMontserrat;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 25px;
+}
+.footer-menu a{
+  color: rgba(75, 215, 200, 0.7);
+  transition: color 0.5s;
+  &:hover{
+    color: rgba(75, 215, 200, 1);
+  }
+}
+.footer-menu li{
+  display: inline-block;
+  padding-left: 12px;
+  text-transform: uppercase;
+}
+.footer-block-icon{
+  margin-top: 35px;
+  text-align: right;
+}
+.footer-block-icon li{
+  display: inline-block;
+  padding-left: 1px;
+}
+.icon-facebook {
+  background: url("../img/footer-Icon-facebook.svg") no-repeat;
+  background-size: 12px auto;
+  background-position: center center;
+}
+.icon-dribbble{
+  background: url("../img/footer-Icon-dribbble.svg") no-repeat;
+  background-size: 19px auto;
+  background-position: center center;
+}
+.icon-twitter{
+  background: url("../img/footer-Icon-twitter.svg") no-repeat;
+  background-size: 19px auto;
+  background-position: center center;
+}
+.footer-soc-icon{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #2dade8;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgba(45, 173, 232, 0.5);
+  transition: all 0.5s;
+  &:hover{
+    background-color: #1a98d2;
+    box-shadow: 0 0 40px rgba(45, 173, 232, 0.5);
+  }
+}

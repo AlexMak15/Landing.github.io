@@ -1,0 +1,66 @@
+#section-mailing-list{
+  min-height: 700px;
+  background: url("../img/bg-section-mailing-list.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+.icon-mail{
+  margin-top: 146px;
+}
+.mailing-list-title{
+  font-family: $fontMontserrat;
+  font-weight: 700;
+  font-size: 72px;
+  color: #4bd7c8;
+}
+.mailing-list-text{
+  font-family: $fontMerriweather;
+  font-weight: 400;
+  font-size: 14px;
+  color: $second-color;
+  margin-top: 40px;
+}
+.form-subsc{
+  border: 1px solid #6affbe;
+  border-radius: 10px;
+  position: relative;
+  width: 300px;
+  padding-left: 20px;
+  margin: auto;
+  height: 44px;
+}
+.input-maill{
+  outline: none;
+  border: none;
+  font-family: $fontMontserrat;
+  font-weight: 500;
+  font-size: 14px;
+  color: #7f7d7f;
+  background: transparent;
+  width: 100%;
+  margin: 10px 0;
+  padding-right: 100px;
+  text-align: left;
+
+}
+button[type="submit"]{
+  position: absolute;
+  top: 0;
+  right: 0;
+  outline: none;
+  border: none;
+  background: none;
+  background: #4bd7c8;
+  border-radius: 10px;
+  font-family: $fontMontserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: $second-color;
+  line-height: 40px;
+  padding: 0 37px;
+  margin: 1px;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  &:hover{
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.5);
+  }
+}

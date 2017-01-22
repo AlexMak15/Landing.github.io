@@ -1,0 +1,16 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+img{
+  max-width: 100%;
+}
+*::after, *::before {
+  content: '';
+}
+h1,h2,h3,h4{
+  color: $color-caption;
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+}
