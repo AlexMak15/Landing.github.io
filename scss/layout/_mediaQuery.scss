@@ -327,6 +327,8 @@
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
+@media only screen and (max-width : 440px) {
+  #section-mailing-list{
+    padding-bottom: 30px;
+  }
 }

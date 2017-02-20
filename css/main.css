@@ -580,7 +580,7 @@ ul.rating, .rating li {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
-  color: #7f7d7f;
+  color: #fff;
   background: transparent;
   width: 100%;
   margin: 10px 0;
@@ -980,3 +980,6 @@ button[type="submit"] {
     padding-top: 10px;
     min-height: 200px; } }
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 440px) {
+  #section-mailing-list {
+    padding-bottom: 30px; } }
